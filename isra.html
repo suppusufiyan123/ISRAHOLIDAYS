@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRA Travels | Kerala & Beyond</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="p-6 bg-white shadow-sm flex justify-between items-center">
+        <h1 class="text-2xl font-bold tracking-tighter text-orange-600">ISRA TRAVELS</h1>
+        <a href="#booking" class="bg-orange-500 text-white px-4 py-2 rounded-full text-sm">Book Now</a>
+    </nav>
+
+    <section class="py-12 px-6 text-center bg-orange-50">
+        <h2 class="text-4xl font-extrabold mb-4">Explore Kerala, Munnar & Ooty</h2>
+        <p class="text-gray-600 max-w-md mx-auto">Premium transport services for solo travelers, families, and large groups across South India.</p>
+    </section>
+
+    <section class="p-8">
+        <h3 class="text-xl font-bold mb-6 border-l-4 border-orange-500 pl-3">Our Fleet</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            <div class="p-4 border rounded-xl bg-white shadow-sm">
+                   <img src="https://i.pinimg.com/474x/38/4e/e5/384ee5bb04a849568a435edd8bd7fb72.jpg?auto=format&fit=crop&w=500" alt="29 seater" class="w-full h-48 object-cover group-hover:scale-105 transition">
+                <p class="font-bold mt-2">4 Seater</p>
+                <p class="text-xs text-gray-500 italic">Sedan / SUV</p>
+            </div>
+            <div class="p-4 border rounded-xl bg-white shadow-sm">
+                 <img src="https://i.pinimg.com/736x/e7/de/6e/e7de6e7472bf87315155c04e1d90f1dc.jpg?auto=format&fit=crop&w=500" alt="29 seater" class="w-full h-48 object-cover group-hover:scale-105 transition">
+                <p class="font-bold mt-2">19 Seater</p>
+                <p class="text-xs text-gray-500 italic">Tempo Traveller</p>
+            </div>
+            <div class="p-4 border rounded-xl bg-white shadow-sm">
+                  <img src="https://i.pinimg.com/736x/c6/b1/3b/c6b13bfba9f58bf8b952f2d8bc749dbd.jpg?auto=format&fit=crop&w=500" alt="29 seater" class="w-full h-48 object-cover group-hover:scale-105 transition">
+                <p class="font-bold mt-2">31 Seater</p>
+                <p class="text-xs text-gray-500 italic">Mini Bus</p>
+            </div>
+            <div class="p-4 border rounded-xl bg-white shadow-sm">
+                <img src="https://i.pinimg.com/736x/c8/9e/a3/c89ea3db075d08897715e49c0e1650e1.jpg?auto=format&fit=crop&w=500" alt="29 seater" class="w-full h-48 object-cover group-hover:scale-105 transition">
+                <p class="font-bold mt-2">49 Seater</p>
+                <p class="text-xs text-gray-500 italic">Luxury Coach</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-8 bg-white">
+        <h3 class="text-xl font-bold mb-6 border-l-4 border-orange-500 pl-3">Popular Destinations</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="rounded-lg overflow-hidden border shadow-sm group">
+                <img src="https://i.pinimg.com/736x/1c/e8/58/1ce858e0bfc3eb04a74b57c8514de23b.jpg?auto=format&fit=crop&w=500" alt="Munnar" class="w-full h-48 object-cover group-hover:scale-105 transition">
+                <div class="p-4">
+                    <h4 class="font-bold">Munnar Tea Gardens</h4>
+                    <p class="text-sm text-gray-600">The Kashmir of South India.</p>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden border shadow-sm group">
+                <img src="https://i.pinimg.com/736x/b3/ab/b8/b3abb8aa5bfd63a9ca6b58b4836394f0.jpg?auto=format&fit=crop&w=500" alt="Ooty" class="w-full h-48 object-cover group-hover:scale-105 transition">
+                <div class="p-4">
+                    <h4 class="font-bold">Ooty Hills</h4>
+                    <p class="text-sm text-gray-600">Queen of Hill Stations.</p>
+                </div>
+            </div>
+            <div class="rounded-lg overflow-hidden border shadow-sm group">
+                <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=500" alt="Alleppey" class="w-full h-48 object-cover group-hover:scale-105 transition">
+                <div class="p-4">
+                    <h4 class="font-bold">Alleppey Backwaters</h4>
+                    <p class="text-sm text-gray-600">Experience the Houseboat Life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="p-8 max-w-xl mx-auto">
+        <div class="bg-gray-100 p-8 rounded-2xl">
+            <h3 class="text-2xl font-bold mb-4 text-center">Plan Your Trip</h3>
+            <div class="space-y-4">
+                <input type="text" id="name" placeholder="Your Name" class="w-full p-3 rounded-lg border">
+                <input type="date" id="date" class="w-full p-3 rounded-lg border">
+                <select id="vehicle" class="w-full p-3 rounded-lg border">
+                    <option value="4 Seater Car">4 Seater Car</option>
+                    <option value="19 Seater Traveller">19 Seater Traveller</option>
+                    <option value="31 Seater Mini Bus">31 Seater Mini Bus</option>
+                    <option value="49 Seater Bus">49 Seater Bus</option>
+                </select>
+                <input type="text" id="destination" placeholder="Where to? (e.g. Munnar)" class="w-full p-3 rounded-lg border">
+                <button onclick="sendToWhatsApp()" class="w-full bg-green-600 text-white py-3 rounded-lg font-bold shadow-lg hover:bg-green-700 transition">
+                    Book via WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function sendToWhatsApp() {
+            const name = document.getElementById('name').value;
+            const date = document.getElementById('date').value;
+            const vehicle = document.getElementById('vehicle').value;
+            const destination = document.getElementById('destination').value;
+            
+            const phoneNumber = "+918606605170"; // REPLACE WITH YOUR PHONE NUMBER
+            
+            const message = `Hello ISRA! I'd like to book a trip.%0A%0A*Name:* ${name}%0A*Date:* ${date}%0A*Vehicle:* ${vehicle}%0A*Destination:* ${destination}`;
+            
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+</html>
